@@ -37,3 +37,8 @@ html {
     font-size: 2rem;
     font-weight: bold;
   }
+
+  .version-info {
+    font-size:xx-small ;
+
+  }
