@@ -1,0 +1,17 @@
+{
+    "lang": "en-us",
+    "name": "Date Diff",
+    "short_name": "DateDiff",
+    "description": "Difference between two dates",
+    "start_url": "/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icon512.png",
+            "sizes": "512x512"
+        }
+    ]
+}

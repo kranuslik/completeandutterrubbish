@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="datediff.css">
+    <title>Date Diff</title>
+  </head>
+  <body>
+    <form id="datediff">
+        <label for="input-startdate">Start date</label>
+        <input type="date" id="input-startdate" name="input-startdate" value="" />
+        <label for="input-enddate">End date</label>
+        <input type="date" id="input-enddate" name="input-enddate">
+        <label for="output-datediff">Date difference</label>
+        <output id="output-datediff" name="output-datediff" for="input-startdate input-enddate"></output>
+      </form>
+      <script src="diff.js"></script>
+      <script>
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/sw.js', { scope: '/' });
+        }
+        </script>
+  </body>
+</html>
