@@ -3,7 +3,7 @@
     "name": "Date Diff",
     "short_name": "DateDiff",
     "description": "Difference between two dates",
-    "start_url": "/completeandutterrubbish/datediff/",
+    "start_url": "./",
     "background_color": "#2f3d58",
     "theme_color": "#2f3d58",
     "orientation": "any",
