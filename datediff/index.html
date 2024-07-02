@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="manifest" href="/manifest.json">
-    <link rel="stylesheet" href="datediff.css">
+    <link rel="stylesheet" href="/datediff.css">
     <title>Date Diff</title>
   </head>
   <body>
@@ -16,10 +16,10 @@
         <label for="output-datediff">Date difference</label>
         <output id="output-datediff" name="output-datediff" for="input-startdate input-enddate"></output>
       </form>
-      <script src="diff.js"></script>
+      <script src="/diff.js"></script>
       <script>
         if('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('/sw.js', { scope: '/' });
+          navigator.serviceWorker.register('/datediff/sw.js', { scope: '/' });
         }
         </script>
   </body>
